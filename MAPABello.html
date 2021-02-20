@@ -3,80 +3,88 @@
 <head>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Practica 1</title>
+      <title>Practica 1 Primorosa</title>
       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
       <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
       <style>
             #mapa {
                   width: 100%;
-                  height: 500px;
+                  height: 700px;
             }
       </style>
 </head>
 <body>
-      <div class="container-fluid">
-            <div class="container">
 
-                  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                        <div class="container-fluid">
-                              <a class="navbar-brand" href="#">Navbar</a>
-                              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                              <span class="navbar-toggler-icon"></span>
-                              </button>
-                              <div class="collapse navbar-collapse" id="navbarNav">
-                              <ul class="navbar-nav">
-                              <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                              </li>
-                              <li class="nav-item">
-                                    <a class="nav-link" href="#servicios">Servicios</a>
-                              </li>
-                              <li class="nav-item">
-                                    <a class="nav-link" href="#mapadeubicacion">Ubicación</a>
-                              </li>
-                              <li class="nav-item">
-                                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                              </li>
-                              </ul>
-                              </div>
-                        </div>
-                  </nav>
-
+      <nav class="navbar navbar-dark bg-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">MK11</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+             
+                  <li class="nav-item">
+                  <a class="nav-link" href="#servicios">HISTORIA</a>
+                  </li>
+                  <li class="nav-item">
+                  <a class="nav-link" href="#mapadeubicacion">MAPA</a>
+                  </li>
+                  
+                </ul>
+              </div>
             </div>
-      </div>
+          </nav>
+      
+
+          <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                  <img src="https://www.xtrafondos.com/wallpapers/resized/mortal-kombat-scorpion-darkness-7070.jpg?s=large" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>MK1</h5>
+                  <p>GUERRA1</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                  <img src="https://www.xtrafondos.com/wallpapers/resized/mortal-kombat-raiden-subzero-y-scorpion-4340.jpg?s=large" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>MK2</h5>
+                  <p>GUERRA2</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                  <img src="https://allgamersin.com/wp-content/uploads/2019/10/Mortal-Kombat-11-tema-PS4.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>MK3</h5>
+                  <p>GUERRA3</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"  data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"  data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
 
  
-                  <div id="carouselExampleControls" data-aos="fade-right" class="carousel slide" data-bs-ride="carousel">
-                        <div class="carousel-inner">
-                              <div class="carousel-item active">
-                              <img src="https://images.unsplash.com/photo-1501159771943-cc9027db4d8b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" class="d-block w-100" alt="...">
-                              </div>
-                              <div class="carousel-item">
-                              <img src="https://images.unsplash.com/photo-1501159771943-cc9027db4d8b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" class="d-block w-100" alt="...">
-                              </div>
-                              <div class="carousel-item">
-                              <img src="https://images.unsplash.com/photo-1501159771943-cc9027db4d8b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80." class="d-block w-100" alt="...">
-                              </div>
-                        </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"  data-bs-slide="prev">
-                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                              <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"  data-bs-slide="next">
-                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                              <span class="visually-hidden">Next</span>
-                        </button>
-                  </div>
-   
-
 
 
       <div class="container-fluid">
             <div class="container">
                   <div class="row">
                         <div class="col-12">
-                              <h1>Practica 1</h1>
+                              <h1>HISTORIA PRINCIPAL</h1>
                               <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas "Letraset", las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.</p>
                         </div>
                   </div>
@@ -88,18 +96,18 @@
                   <div class="row">
                         <div class="col-12 col-md-4">
                               <a name="servicios"></a>
-                              <img src="https://images.unsplash.com/photo-1501159771943-cc9027db4d8b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" alt="Imagen1" class="w-100 rounded shadow">
-                              <h2 class="p-3">Subtitulo1</h2>
+                              <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAACoCAMAAABt9SM9AAAAflBMVEUAAAD/rQEHBwf/sAH/swFwTQDXkgFHMAC/gQH/sQH2pwHblQH/tQHKiQG8gAHgmAExIgHvowErHgFmRgGDWgFtSwHpnwFYPQEVDwHmnAGxeQGocwH/uQEJBwF8VQEfFgGNYAFSOAGaagE9KgAlGgHGhwJXPAGUZQJfQQEYEQGnHZjhAAAE6ElEQVR4nO3cbXeaMBjGcVhSNPjUVmu1j9rVbvv+X3CFBIWQllxvuLOz6//KUd3JfoeohHRZxmL7IT2AfyliARELiFhAxAIiFhCxgIgFRCwgYgERC4hYQMQCIhYQsYCIBUQsIGIBEQuIWEDEAiIWELGAiAVELCBiARELiFhAxAIiFhCxgIgFRCwgYgERC4hYQMQCIhYQsYCIBUQsIGIBEQuIWEDEAiIWUIJYz9ID+LL0sNYvvUMPAsMIlRzWq7nyDy1XEgMJlBzWau5jbeaFyEj6pYa1NNrDmhhFrGAbnftYZU6sYBOT+1iFIVa4UvlYjzonVrDPs8jDWn9aEStUdRZ1sa6rA8QKdFdbdbC2iljB7FnUwToZnlnh7FnUxjrYU41YvdxZ1MI6Oiti+R3muYe1K3NiBbvXyseaGWIF2+1vttuyg/VWbrc3xApUr/ctlf9p+FMT64umPawJsb6KWL3u96tZ3Wrp/WQYa7Kfndsvbkcbc9P4Z9Zmrmy5d2ci4syaavdaM5dYlxeYhi+9r+q2mGnoPh/N9jjWaNtJvGc1X59O3cMRWO760XivHCtBrLzsHo7AmqnQC0dLEkuvWwdvI7DclXXndWMmiaWmrYOHYaxb+wTjf4yOliRWZzoVw1jCk1AYqzWfXoaxpCehMJa6TKjFYgirmYTT/l84VqJYeX4+pgaxCulJKI11nlJ38yGsjX08l5uE0ljnz8OpHsB6z8UnoTTWeR6WQ9MwgUkojqXv6iNrPYDlJqF7ulTCWG4eLtUAlv2Z1DVhk/Q0tPOwzAew7JJzKbzdVBqrpvmto7D6GyhHThqrXqf5pIjBUtIbcQWxbhbKzcMyj5uGZiIw2laSWFfa2nzoSCw1ExhtK0Gssn7wqfRgIrFy3d8jP2aiWKf6naiahdV3iAis//dLaWk3QZrHenPk3fdYbuODEX2PF8Wqz6ncGn2/Bj8tmp0Q1wIDbpLFemh2ylQrW9+eWc+HBO5Oy2JNml1Z+vg91nuW7Xs/Hj1ZrOamaX6TDd4K+9CXpwoljPVm56F5zIbvG55az5VJGOvWLb38zIaxnt3XByX2Hi+MZW9vqX31cPBW2C/3x4XAmOuksTbV3DK/qofDd6Td7m+xdXhprN1lYg1j/RZ+j5fGyhaquT6O2Bhyck95G3nELnGsK52bTf0oAuu9eY9/HXnINnGsaknZrhbHbGZ7E32Pl8daavcvj9qA22z9E1mrEcDaNHPJzr77J6cThbV2F0j6MOKIm8bHOjQbcNXcajVrVHFbuwvjXiywWDP+1u5VcW5Vb6Nt9tJOTQzWdbGwFZsRR21L6JcGjl9hCe7I6pYQllsO7WHJXd74pYS1C59ZchfOfilh2StlH0twScYvKaz6W5SPJXtDp1NaWNWVsocluYzslxZWdVndxVKp/N9ZVYlhXftYWnh7Q6fEsLJH08GS+22KUKlhZWX3zErqf0tMDuvlqYX1dJAbSKDksLLtBesoeI8wVHpYH5cL5A/Zzcm90sPK/pwf7QRHESpBrHQjFhCxgIgFRCwgYgERC4hYQMQCIhYQsYCIBUQsIGIBEQuIWEDEAiIWELGAiAVELCBiARELiFhAxAIiFhCxgIgFRCwgYgERC4hYQMQCIhYQsYCIBUQsIGIBEQuIWEDEAiIWELGAiAVELCBiAREL6MdfmlYpE3A7D/QAAAAASUVORK5CYII=" alt="Imagen1" class="w-100 rounded shadow">
+                              <h2 class="p-3">HISTORIA1</h2>
                               <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas "Letraset", las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.</p>
                         </div>
                         <div class="col-12 col-md-4">
-                              <img src="https://images.unsplash.com/photo-1501159771943-cc9027db4d8b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" alt="Imagen2" class="w-100 rounded shadow">
-                              <h2 class="p-3">Subtitulo2</h2>
+                              <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAACoCAMAAABt9SM9AAAAflBMVEUAAAD/rQEHBwf/sAH/swFwTQDXkgFHMAC/gQH/sQH2pwHblQH/tQHKiQG8gAHgmAExIgHvowErHgFmRgGDWgFtSwHpnwFYPQEVDwHmnAGxeQGocwH/uQEJBwF8VQEfFgGNYAFSOAGaagE9KgAlGgHGhwJXPAGUZQJfQQEYEQGnHZjhAAAE6ElEQVR4nO3cbXeaMBjGcVhSNPjUVmu1j9rVbvv+X3CFBIWQllxvuLOz6//KUd3JfoeohHRZxmL7IT2AfyliARELiFhAxAIiFhCxgIgFRCwgYgERC4hYQMQCIhYQsYCIBUQsIGIBEQuIWEDEAiIWELGAiAVELCBiARELiFhAxAIiFhCxgIgFRCwgYgERC4hYQMQCIhYQsYCIBUQsIGIBEQuIWEDEAiIWUIJYz9ID+LL0sNYvvUMPAsMIlRzWq7nyDy1XEgMJlBzWau5jbeaFyEj6pYa1NNrDmhhFrGAbnftYZU6sYBOT+1iFIVa4UvlYjzonVrDPs8jDWn9aEStUdRZ1sa6rA8QKdFdbdbC2iljB7FnUwToZnlnh7FnUxjrYU41YvdxZ1MI6Oiti+R3muYe1K3NiBbvXyseaGWIF2+1vttuyg/VWbrc3xApUr/ctlf9p+FMT64umPawJsb6KWL3u96tZ3Wrp/WQYa7Kfndsvbkcbc9P4Z9Zmrmy5d2ci4syaavdaM5dYlxeYhi+9r+q2mGnoPh/N9jjWaNtJvGc1X59O3cMRWO760XivHCtBrLzsHo7AmqnQC0dLEkuvWwdvI7DclXXndWMmiaWmrYOHYaxb+wTjf4yOliRWZzoVw1jCk1AYqzWfXoaxpCehMJa6TKjFYgirmYTT/l84VqJYeX4+pgaxCulJKI11nlJ38yGsjX08l5uE0ljnz8OpHsB6z8UnoTTWeR6WQ9MwgUkojqXv6iNrPYDlJqF7ulTCWG4eLtUAlv2Z1DVhk/Q0tPOwzAew7JJzKbzdVBqrpvmto7D6GyhHThqrXqf5pIjBUtIbcQWxbhbKzcMyj5uGZiIw2laSWFfa2nzoSCw1ExhtK0Gssn7wqfRgIrFy3d8jP2aiWKf6naiahdV3iAis//dLaWk3QZrHenPk3fdYbuODEX2PF8Wqz6ncGn2/Bj8tmp0Q1wIDbpLFemh2ylQrW9+eWc+HBO5Oy2JNml1Z+vg91nuW7Xs/Hj1ZrOamaX6TDd4K+9CXpwoljPVm56F5zIbvG55az5VJGOvWLb38zIaxnt3XByX2Hi+MZW9vqX31cPBW2C/3x4XAmOuksTbV3DK/qofDd6Td7m+xdXhprN1lYg1j/RZ+j5fGyhaquT6O2Bhyck95G3nELnGsK52bTf0oAuu9eY9/HXnINnGsaknZrhbHbGZ7E32Pl8daavcvj9qA22z9E1mrEcDaNHPJzr77J6cThbV2F0j6MOKIm8bHOjQbcNXcajVrVHFbuwvjXiywWDP+1u5VcW5Vb6Nt9tJOTQzWdbGwFZsRR21L6JcGjl9hCe7I6pYQllsO7WHJXd74pYS1C59ZchfOfilh2StlH0twScYvKaz6W5SPJXtDp1NaWNWVsocluYzslxZWdVndxVKp/N9ZVYlhXftYWnh7Q6fEsLJH08GS+22KUKlhZWX3zErqf0tMDuvlqYX1dJAbSKDksLLtBesoeI8wVHpYH5cL5A/Zzcm90sPK/pwf7QRHESpBrHQjFhCxgIgFRCwgYgERC4hYQMQCIhYQsYCIBUQsIGIBEQuIWEDEAiIWELGAiAVELCBiARELiFhAxAIiFhCxgIgFRCwgYgERC4hYQMQCIhYQsYCIBUQsIGIBEQuIWEDEAiIWELGAiAVELCBiAREL6MdfmlYpE3A7D/QAAAAASUVORK5CYII=" alt="Imagen2" class="w-100 rounded shadow">
+                              <h2 class="p-3">HISTORIA2</h2>
                               <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas "Letraset", las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.</p>
                         </div>
                         <div class="col-12 col-md-4">
-                              <img src="https://images.unsplash.com/photo-1501159771943-cc9027db4d8b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" alt="Imagen3" class="w-100 rounded shadow">
-                              <h2 class="p-3">Subtitulo3</h2>
+                              <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAACoCAMAAABt9SM9AAAAflBMVEUAAAD/rQEHBwf/sAH/swFwTQDXkgFHMAC/gQH/sQH2pwHblQH/tQHKiQG8gAHgmAExIgHvowErHgFmRgGDWgFtSwHpnwFYPQEVDwHmnAGxeQGocwH/uQEJBwF8VQEfFgGNYAFSOAGaagE9KgAlGgHGhwJXPAGUZQJfQQEYEQGnHZjhAAAE6ElEQVR4nO3cbXeaMBjGcVhSNPjUVmu1j9rVbvv+X3CFBIWQllxvuLOz6//KUd3JfoeohHRZxmL7IT2AfyliARELiFhAxAIiFhCxgIgFRCwgYgERC4hYQMQCIhYQsYCIBUQsIGIBEQuIWEDEAiIWELGAiAVELCBiARELiFhAxAIiFhCxgIgFRCwgYgERC4hYQMQCIhYQsYCIBUQsIGIBEQuIWEDEAiIWUIJYz9ID+LL0sNYvvUMPAsMIlRzWq7nyDy1XEgMJlBzWau5jbeaFyEj6pYa1NNrDmhhFrGAbnftYZU6sYBOT+1iFIVa4UvlYjzonVrDPs8jDWn9aEStUdRZ1sa6rA8QKdFdbdbC2iljB7FnUwToZnlnh7FnUxjrYU41YvdxZ1MI6Oiti+R3muYe1K3NiBbvXyseaGWIF2+1vttuyg/VWbrc3xApUr/ctlf9p+FMT64umPawJsb6KWL3u96tZ3Wrp/WQYa7Kfndsvbkcbc9P4Z9Zmrmy5d2ci4syaavdaM5dYlxeYhi+9r+q2mGnoPh/N9jjWaNtJvGc1X59O3cMRWO760XivHCtBrLzsHo7AmqnQC0dLEkuvWwdvI7DclXXndWMmiaWmrYOHYaxb+wTjf4yOliRWZzoVw1jCk1AYqzWfXoaxpCehMJa6TKjFYgirmYTT/l84VqJYeX4+pgaxCulJKI11nlJ38yGsjX08l5uE0ljnz8OpHsB6z8UnoTTWeR6WQ9MwgUkojqXv6iNrPYDlJqF7ulTCWG4eLtUAlv2Z1DVhk/Q0tPOwzAew7JJzKbzdVBqrpvmto7D6GyhHThqrXqf5pIjBUtIbcQWxbhbKzcMyj5uGZiIw2laSWFfa2nzoSCw1ExhtK0Gssn7wqfRgIrFy3d8jP2aiWKf6naiahdV3iAis//dLaWk3QZrHenPk3fdYbuODEX2PF8Wqz6ncGn2/Bj8tmp0Q1wIDbpLFemh2ylQrW9+eWc+HBO5Oy2JNml1Z+vg91nuW7Xs/Hj1ZrOamaX6TDd4K+9CXpwoljPVm56F5zIbvG55az5VJGOvWLb38zIaxnt3XByX2Hi+MZW9vqX31cPBW2C/3x4XAmOuksTbV3DK/qofDd6Td7m+xdXhprN1lYg1j/RZ+j5fGyhaquT6O2Bhyck95G3nELnGsK52bTf0oAuu9eY9/HXnINnGsaknZrhbHbGZ7E32Pl8daavcvj9qA22z9E1mrEcDaNHPJzr77J6cThbV2F0j6MOKIm8bHOjQbcNXcajVrVHFbuwvjXiywWDP+1u5VcW5Vb6Nt9tJOTQzWdbGwFZsRR21L6JcGjl9hCe7I6pYQllsO7WHJXd74pYS1C59ZchfOfilh2StlH0twScYvKaz6W5SPJXtDp1NaWNWVsocluYzslxZWdVndxVKp/N9ZVYlhXftYWnh7Q6fEsLJH08GS+22KUKlhZWX3zErqf0tMDuvlqYX1dJAbSKDksLLtBesoeI8wVHpYH5cL5A/Zzcm90sPK/pwf7QRHESpBrHQjFhCxgIgFRCwgYgERC4hYQMQCIhYQsYCIBUQsIGIBEQuIWEDEAiIWELGAiAVELCBiARELiFhAxAIiFhCxgIgFRCwgYgERC4hYQMQCIhYQsYCIBUQsIGIBEQuIWEDEAiIWELGAiAVELCBiAREL6MdfmlYpE3A7D/QAAAAASUVORK5CYII=" alt="Imagen3" class="w-100 rounded shadow">
+                              <h2 class="p-3">HISTORIA3</h2>
                               <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas "Letraset", las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.</p>
                         </div>
                   </div>
@@ -111,7 +119,7 @@
                   <div class="row">
                         <div class="col-12">
                               <a name="mapadeubicacion"></a>
-                              <h2 class="text-center">MAPA DE UBICACIÓN</h2>
+                              <h2 class="text-center">MAPA DE GUERRA</h2>
                               <div id="mapa"></div>
                         </div>
                   </div>
@@ -122,7 +130,7 @@
             <div class="container">
                   <div class="row">
                         <div class="col-12">
-                              <h3 class="text-white">Pie de página</h3>
+                              <h3 class="text-white">FINAL</h3>
                               <p class="text-white">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas "Letraset", las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.</p>
                         </div>
                   </div>
@@ -132,7 +140,7 @@
 
 
 
-      <span>Photo by <a href="https://unsplash.com/@miabaker?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Mia Baker</a> on <a href="https://unsplash.com/t/business-work?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+      <span>FOTOS POR <a href="https://www.xtrafondos.com/wallpaper/7680x4320/3177-mortal-kombat-11-logo-mk.html">XTRAFONDOS.COM</a> 
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
 
       <!-- Google Maps -->
