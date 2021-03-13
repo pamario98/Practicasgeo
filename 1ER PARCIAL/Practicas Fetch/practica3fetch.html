@@ -40,17 +40,22 @@
 
             const markers = [
                 {
-                    name: "México",
+                    name: "MEXICO",
                     longitude: "-99.1276",
                     latitude: "19.427"
                 }, {
-                    name: "Brazil",
-                    longitude: "-47.9292",
-                    latitude: "-15.7801"
+                    name: "GABON",
+                    longitude: "-0.803689",
+                    latitude: "11.609444"
                 }, {
-                    name: "Spain",
+                    name: "ESPAÑA",
                     longitude: "-3.70327",
                     latitude: "40.4167"
+                },
+                {
+                    name: "SOMALIA",
+                    longitude: "42.546245",
+                    latitude: "1.601554"
                 }
             ];
 
@@ -71,6 +76,9 @@
 
                 let marker = new google.maps.Marker({
                     map: map,
+                    icon: {
+                    url: "http://maps.google.com/mapfiles/ms/icons/blue-dot.png"
+                    },
                     position: new google.maps.LatLng(marcador.latitude, marcador.longitude),
                     title: marcador.name
                 });
