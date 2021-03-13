@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica 1 Fetch</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+
+    <div id="paises">
+        <table id="paises" class="table table-dark table-striped">
+            
+          </table>
+    </div>
+  
+ 
+    <script>
+
+        var paises = document.getElementById("paises");
+        fetch('https://sistemasgeo.com/fetch/datos.json')
+        .then( function(response){
+
+            response.json().then( function(datos){
+
+                datos.forEach( registro => {
+                    console.log(registro.country);
+                    let nombre = document.createElement("p");
+                    nombre.textContent = "País: " + registro.country + ", casos:" + registro.cases;
+                    paises.appendChild(nombre);
+                });
+                
+
+            });
+
+        });
+
+    </script>
+    
+</body>
+</html>
