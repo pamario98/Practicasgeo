@@ -62,7 +62,7 @@
                 datos.forEach( marcador => {
 
 
-                    fetch('https://corona.lmao.ninja/countries')
+                    fetch('https://corona.lmao.ninja/v3/covid-19/countries')
                     .then(function(respuesta) {
 
                         respuesta.json().then(function(datospaises) {
