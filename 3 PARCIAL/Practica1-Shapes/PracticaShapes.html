@@ -69,7 +69,7 @@
             var tabla = `
             <table class="table-info">
               <thead>
-                <tr>
+                <tr class="table-success">
                   <th scope="col">Municipio</th>
                   <th scope="col">Estado</th>
                   <th scope="col">Habitantes</th>
@@ -99,9 +99,9 @@
 
               tabla += `
                 <tr>
-                  <th scope="row">${ municipio.nombre}</th>
-                  <td>${ municipio.estado}</td>
-                  <td>${ municipio.habitantes}</td>
+                  <th scope="row" class="table-info">${ municipio.nombre}</th>
+                  <td class="table-info">${ municipio.estado}</td>
+                  <td class="table-info">${ municipio.habitantes}</td>
                 </tr>
               `;
 
