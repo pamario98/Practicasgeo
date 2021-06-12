@@ -3,18 +3,18 @@
       "nombre": "Ciudad de Mexico",
       "estado": "Cdmx",
       "coordenadas": { "lat": 19.55528, "lng": -99.17934},
-      "habitantes": 8851080
+      "reservas": 8851080
     },
     {
       "nombre": "USA",
       "estado": "Texas",
       "coordenadas": {"lat": 30.51305, "lng": -97.83626},
-      "habitantes": 1655015
+      "reservas": 1655015
     },
     {
           "nombre": "USA",
       "estado": "Tucson",
       "coordenadas": {"lat": 32.92660, "lng": -110.82212},
-       "habitantes": 1495182
+       "reservas": 1495182
     }
 ]
