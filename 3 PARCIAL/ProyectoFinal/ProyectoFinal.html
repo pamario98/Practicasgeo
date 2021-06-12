@@ -332,9 +332,9 @@
 
       
 
-            fetch('AppleStore.json')
+            fetch('applestore.json')
             .then( function(response){
-                response.json().then( function(AppleStore){
+                response.json().then( function(applestore){
                 
                 
 
@@ -355,7 +355,7 @@
 
                 var coordenadasVuelos=[];
 
-                AppleStore.forEach( municipio => {
+                applestore.forEach( municipio => {
 
 
                     coordenadasVuelos.push(municipio.coordenadas);
