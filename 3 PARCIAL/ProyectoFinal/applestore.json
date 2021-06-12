@@ -1,20 +1,23 @@
 [
     {
-      "nombre": "Ciudad de Mexico",
-      "estado": "Cdmx",
+      "nombre": "Apple ANTARA",
+      "estado": "Mexico",
       "coordenadas": { "lat": 19.55528, "lng": -99.17934},
-      "reservas": 8851080
+      "reservas": 8851080,
+      "telefono":6291234567
     },
     {
-      "nombre": "USA",
+      "nombre": "APPLE TEXAS",
       "estado": "Texas",
       "coordenadas": {"lat": 30.51305, "lng": -97.83626},
-      "reservas": 1655015
+      "reservas": 1655015,
+      "telefono":6779876543
     },
     {
-          "nombre": "USA",
+          "nombre": "APPLE LA ENCANTADA",
       "estado": "Tucson",
       "coordenadas": {"lat": 32.92660, "lng": -110.82212},
-       "reservas": 1495182
+       "reservas": 1495182,
+       "telefono":5674657575
     }
 ]
